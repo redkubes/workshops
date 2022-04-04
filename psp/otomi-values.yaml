@@ -1,0 +1,9 @@
+cluster:
+  owner: redkubes
+  k8sVersion: '1.21'
+  name: otomi-psp-demo
+  provider: azure
+charts:
+  gatekeeper-operator:
+    disableValidatingWebhook: false
+    emitAdmissionEvents: true
