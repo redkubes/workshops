@@ -14,7 +14,7 @@ Otomi:
 
 ## About the workshop
 
-The workshop aims to demonstrate different use cases of Otomi though hands-on labs.
+The workshop aims to demonstrate different use cases and features of [Otomi](https://github.com/redkubes/otomi-core) though hands-on labs.
 
 ## For who is the workshop?
 
@@ -23,6 +23,7 @@ The workshop aims to demonstrate different use cases of Otomi though hands-on la
 - DevOps Engineers
 - SREs
 - Infrastructure & Cloud Engineers
+- Product Managers
 
 ## 🎊 Learning objectives
 
@@ -30,7 +31,7 @@ The main objective is to get a good understanding/overview of Otomi and be able 
 
 ## 🛠 Lab prerequisites
 
-- 
+- Follow the [quickstart](https://github.com/redkubes/otomi-core) to setup a K8s cluster with Otomi installed
 
 In case of not using Azure Cloud shell, install
 
@@ -43,10 +44,10 @@ In case of not using Azure Cloud shell, install
 
 The workshop is organized into 6 labs:
 
-- Lab 1: [Creating Teams in Otomi](1_create_team/README.md)
-- Lab 2: [Configuring network policies in Otomi](2_netpols/README.md)
-- Lab 3: [Activate apps in Otomi](3_activate_apps/README.md)
-- Lab 4: [Using Knative in Otomi](4_knative/README.md)
+- Lab 1: [Creating Teams in Otomi](labs/1_create_team/README.md)
+- Lab 2: [Configuring network policies in Otomi](labs/2_netpols/README.md)
+- Lab 3: [Activate apps in Otomi](labs/3_activate_apps/README.md)
+- Lab 4: [Using Knative in Otomi](labs/4_knative/README.md)
 
 After completing the labs, you'll be able to:
 
