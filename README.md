@@ -14,7 +14,7 @@ Otomi:
 
 ## About the workshop
 
-The workshop walks you through the all the steps required to install and use Otomi on Kubernetes (AKS in this case).
+The workshop aims to demonstrate different use cases of Otomi though hands-on labs.
 
 ## For who is the workshop?
 
@@ -30,7 +30,7 @@ The main objective is to get a good understanding/overview of Otomi and be able 
 
 ## 🛠 Lab prerequisites
 
-- Azure account and Azure cloud shell access
+- 
 
 In case of not using Azure Cloud shell, install
 
@@ -43,16 +43,13 @@ In case of not using Azure Cloud shell, install
 
 The workshop is organized into 6 labs:
 
-- Lab 1: [Create an AKS cluster](1_create_aks_cluster/README.md)
-- Lab 2: [Installing Otomi on AKS](2_install_otomi/README.md)
-- Lab 3: [Creating Teams in Otomi](3_create_team/README.md)
-- Lab 4: [Configuring network policies in Otomi](4_netpols/README.md)
-- Lab 5: [Activate apps in Otomi](5_activate_apps/README.md)
-- Lab 6: [Using Knative in Otomi](6_knative/README.md)
+- Lab 1: [Creating Teams in Otomi](1_create_team/README.md)
+- Lab 2: [Configuring network policies in Otomi](2_netpols/README.md)
+- Lab 3: [Activate apps in Otomi](3_activate_apps/README.md)
+- Lab 4: [Using Knative in Otomi](4_knative/README.md)
 
 After completing the labs, you'll be able to:
 
-- Install Otomi on AKS
 - Use the Teams feature in Otomi for multi-tenancy and network isolation
 - Use te Otomi web UI to expose K8s services and configure network policies between workloads
 - Explain the difference between Otomi core apps and how to activate optional apps
@@ -62,6 +59,6 @@ After completing the labs, you'll be able to:
 
 Official Otomi documentation is available [here](https://otomi.io). We'd also like to invite you to [join our Slack community](https://otomi.slack.com/join/shared_invite/zt-12h11e8aa-6po4NWhhpMXxT~nffDsYqA#/shared-invite/email) for additional support, feature discussions, or just for a quick chat.
 
-The Otomi open source project can be found [here](https://github.com/redkubes/otomi-core) on GitHub. Don't forget to ⭐️ ⭐️ ⭐️. 
+The Otomi open source project can be found [here](https://github.com/redkubes/otomi-core) on GitHub. Don't forget to ⭐️ ⭐️ ⭐️.
 
 Thank you!

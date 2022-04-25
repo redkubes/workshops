@@ -1,4 +1,4 @@
-# Lab 3: Creating Teams in Otomi
+# Lab 1: Creating Teams in Otomi
 
 In this lab, we are going to create a Team in Otomi. Teams in Otomi serve the following purpose:
 
@@ -37,5 +37,4 @@ Note:
 - Because we did not enable Alert manager, the Alerts section is disabled
 - Because we did not enable Grafana, the Azure Monitor section is disabled
 
-
-Go to the [next lab](../4_netpols/README.md)
+Go to the [next lab](../2_netpols/README.md)
