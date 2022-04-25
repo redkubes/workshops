@@ -32,13 +32,10 @@ The main objective is to get a good understanding/overview of Otomi and be able 
 ## 🛠 Lab prerequisites
 
 - Follow the [quickstart](https://github.com/redkubes/otomi-core) to setup a K8s cluster with Otomi installed
-
-In case of not using Azure Cloud shell, install
-
-- [helm](https://helm.sh/docs/intro/install/)
-- [az cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
-- [kubectl](https://kubernetes.io/docs/tasks/tools/)
-- Optionally: [K9s](https://kubernetes.io/docs/tasks/tools/)
+- CLI tools used in the labs
+   - [helm](https://helm.sh/docs/intro/install/)
+   - [kubectl](https://kubernetes.io/docs/tasks/tools/)
+   - Optionally: [K9s](https://kubernetes.io/docs/tasks/tools/)
 
 ## 🚀 Labs
 
