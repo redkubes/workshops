@@ -1,4 +1,4 @@
-# Lab 6: Using Knative in Otomi
+# Lab 4: Using Knative in Otomi
 
 In this lab we are going to activate Knative and create a new Knative service using Otomi Console.
 
@@ -17,12 +17,12 @@ You might notice that in the `Service type` section there are now 2 extra option
 
 4. Select `New knative service` and use the following values:
 
-- Run As User: 1001
-- Repository: nginxinc/nginx-unprivileged
-- Tag: stable
-- Limits: CPU=200m, Memory=128Mi
-- Requests: CPU=100m, Memory=64Mi
-- Exposure: Public
+- Run As User: `1001`
+- Repository: `otomi/nodejs-helloworld:v1.2.12`
+- Tag: `v1.2.12`
+- Limits: `CPU=200m`, `Memory=128Mi`
+- Requests: `CPU=100m`, `Memory=64Mi`
+- Exposure: `Public`
 
 5. Now click `Submit` and then `Deploy changes`.
 

@@ -6,7 +6,7 @@
 
 Otomi:
 
-- Brings a full PaaS (like Heroku) to your own Kubernetes cluster. The only thing you'll need to do yourself is deploy your application and Otomi will do the rest.
+- Brings a full PaaS (like Heroku) to your own Kubernetes cluster. The only thing you'll need to do yourself is build your app image and configure Otomi to use it, which will then do the rest.
 
 - Allows you to use a PaaS on top of K8s without the constraints and abstractions of traditional PaaS offerings like OpenShift, Cloud Foundry and Heroku.
 
@@ -39,12 +39,13 @@ The main objective is to get a good understanding/overview of Otomi and be able 
 
 ## 🚀 Labs
 
-The workshop is organized into 6 labs:
+The workshop is organized into 5 labs:
 
-- Lab 1: [Creating Teams in Otomi](labs/1_create_team/README.md)
-- Lab 2: [Configuring network policies in Otomi](labs/2_netpols/README.md)
-- Lab 3: [Activate apps in Otomi](labs/3_activate_apps/README.md)
-- Lab 4: [Using Knative in Otomi](labs/4_knative/README.md)
+- Lab 1: [Creating Teams in Otomi](01-create-team/README.md)
+- Lab 2: [Configuring network policies in Otomi](02-netpols/README.md)
+- Lab 3: [Activate apps in Otomi](03-activate-apps/README.md)
+- Lab 4: [Using Knative in Otomi](04-knative/README.md)
+- Lab 5: [Creating a microservice architecture using Otomi](04-knative/README.md)
 
 After completing the labs, you'll be able to:
 
@@ -52,6 +53,7 @@ After completing the labs, you'll be able to:
 - Use te Otomi web UI to expose K8s services and configure network policies between workloads
 - Explain the difference between Otomi core apps and how to activate optional apps
 - Create Knative workloads using the Otomi web UI
+- Expose workloads in a microservice architecture, allowing multiple workloads in different team namespaces to work together.
 
 ## 📖 Documentation & support
 
