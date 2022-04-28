@@ -22,4 +22,4 @@ In this lab we are going to activate Loki for logging. But first: The multi-tena
 
 8. Go back to the console and in the Loki app, click on `Shortcuts`. Click `Edit` and the `Add item`. Fill in a title (like "$TEAM-NAME logs"), a description (like "The logs of $TEAM-NAME") and paste the copied path. Now click Submit. The shortcut you now created can be used to go directly to Loki and see the result of your query.
 
-Go to the [next lab](../4_knative/README.md)
+Go to the [next lab](../04-knative/README.md)

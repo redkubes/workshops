@@ -37,4 +37,4 @@ Note:
 - Because we did not enable Alert manager, the Alerts section is disabled
 - Because we did not enable Grafana, the Azure Monitor section is disabled
 
-Go to the [next lab](../2_netpols/README.md)
+Go to the [next lab](../02-netpols/README.md)

@@ -61,3 +61,5 @@ And for `team-b`:
 - `servant-2.team-b` exposed via `https://hello-multi.$domain/servant-2`
 
 Bonus: networkpolicies make sure no unforeseen traffic is routed :)
+
+Go to the [next lab](../06-argocd/README.md)
