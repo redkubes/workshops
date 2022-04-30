@@ -80,4 +80,4 @@ And for `team-b`:
 
 Bonus: Add network policies to make sure no unforeseen traffic is routed :)
 
-Go to the [next lab](../06-argocd/README.md)
+Go to the [next lab](../08-argocd/README.md)

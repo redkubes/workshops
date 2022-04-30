@@ -66,3 +66,4 @@ kubectl apply -f https://raw.githubusercontent.com/redkubes/workshops/main/06-se
 
 - Apply & Deploy changes
 
+Go to the [next lab](../07-microservice-architecture/README.md)

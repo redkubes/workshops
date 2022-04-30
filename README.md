@@ -48,7 +48,7 @@ The workshop is organized into 5 labs:
 - Lab 4: [Using Knative](04-knative/README.md)
 - Lab 5: [Using Harbor](05-harbor/README.md)
 - Lab 6: [Create and use secrets](06-secrets/README.md)
-- Lab 7: [Creating a microservice architecture](05-microservice-architecture/README.md)
+- Lab 7: [Creating a microservice architecture](07-microservice-architecture/README.md)
 - Coming soon: Lab 8: Working with ArgoCD
 
 After completing the labs, you'll be able to:

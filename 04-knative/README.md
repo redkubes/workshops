@@ -28,4 +28,4 @@ You might notice that in the `Service type` section there are now 2 extra option
 
 6. The new service and the hostname are now shown in the list of services. Wait until the Drone pipeline has finished and click on the hostname. What do you see?
 
-Go to the [next lab](../05-microservice-architecture/README.md)
+Go to the [next lab](../05-harbor/README.md)

@@ -73,3 +73,5 @@ docker push harbor.<your-domain>/team-demo/hello-world:latest
 ```
 
 Now go to the team-demo project and verify that the hello-world repository has been created.
+
+Go to the [next lab](../06-secrets/README.md)
