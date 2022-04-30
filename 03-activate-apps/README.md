@@ -1,4 +1,4 @@
-# Lab 3: Activate apps in Otomi
+# Lab 3: Activate apps
 
 Otomi by default installs a minimal set of apps. These are called the Core apps. With the Core apps, Otomi offers an advanced ingress architecture, using Nginx, Istio, Keycloak, Certmanager and Oauth2, combined with developer self-service. Next to the Core apps, Otomi offers optional apps like Knative, Harbor, Vault, Kubeapps, Prometheus, Loki, Alertmanager, and more. These apps are all fully integrated and can be activated by dragging them to the active apps section in the Console.
 

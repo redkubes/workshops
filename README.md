@@ -31,7 +31,8 @@ The main objective is to get a good understanding/overview of Otomi and be able 
 
 ## 🛠 Lab prerequisites
 
-- Follow the [quickstart](https://github.com/redkubes/quickstart) to setup a K8s cluster with Otomi installed
+- A K8s cluster with al least 16 vCPU and 32GiB memory
+- Otomi installed
 - CLI tools used in the labs
   - [helm](https://helm.sh/docs/intro/install/)
   - [kubectl](https://kubernetes.io/docs/tasks/tools/)
@@ -41,11 +42,14 @@ The main objective is to get a good understanding/overview of Otomi and be able 
 
 The workshop is organized into 5 labs:
 
-- Lab 1: [Creating Teams in Otomi](01-create-team/README.md)
-- Lab 2: [Configuring network policies in Otomi](02-netpols/README.md)
-- Lab 3: [Activate apps in Otomi](03-activate-apps/README.md)
-- Lab 4: [Using Knative in Otomi](04-knative/README.md)
-- Lab 5: [Creating a microservice architecture using Otomi](05-microservice-architecture/README.md)
+- Lab 1: [Creating Teams](01-create-team/README.md)
+- Lab 2: [Configuring network policies](02-netpols/README.md)
+- Lab 3: [Activate apps](03-activate-apps/README.md)
+- Lab 4: [Using Knative](04-knative/README.md)
+- Lab 5: [Using Harbor](05-harbor/README.md)
+- Lab 6: [Create and use secrets](06-secrets/README.md)
+- Lab 7: [Creating a microservice architecture](05-microservice-architecture/README.md)
+- Coming soon: Lab 8: Working with ArgoCD
 
 After completing the labs, you'll be able to:
 

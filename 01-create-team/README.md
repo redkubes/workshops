@@ -1,4 +1,4 @@
-# Lab 1: Creating Teams in Otomi
+# Lab 1: Creating Teams
 
 In this lab, we are going to create a Team in Otomi. Teams in Otomi serve the following purpose:
 

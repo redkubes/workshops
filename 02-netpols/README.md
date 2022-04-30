@@ -1,4 +1,4 @@
-# Lab 2: Configuring network policies in Otomi
+# Lab 2: Configuring network policies
 
 In this lab we are going to deploy a multi tier web application, called `guestbook`, map the 3 K8s services to Otomi and configure public access to the front-end. Next we are going to turn on the NetworkPolicies option for the team.
 

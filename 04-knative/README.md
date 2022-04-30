@@ -1,4 +1,4 @@
-# Lab 4: Using Knative in Otomi
+# Lab 4: Using Knative
 
 In this lab we are going to activate Knative and create a new Knative service using Otomi Console.
 
