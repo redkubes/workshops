@@ -23,6 +23,7 @@ In this lab we are going to:
 
 - Download the `hello-0.1.1.tgz` file
 
+
 2. Connect the repository in Argo CD
 
 - Open Argo CD
@@ -63,7 +64,7 @@ In this lab we are going to:
 
 You will see that that the hello application is now automatically deployed. To see the app, create a new Service in Otomi (in the team where the app is deployed) and set the exposure ingress to `public`.
 
-1. Configure automatic image updates
+4. Configure automatic image updates
 
 - In Argo CD, go to applications and click on the `hello` application
   
