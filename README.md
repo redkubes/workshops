@@ -49,7 +49,8 @@ The workshop is organized into 5 labs:
 - Lab 5: [Using Harbor](05-harbor/README.md)
 - Lab 6: [Create and use secrets](06-secrets/README.md)
 - Lab 7: [Creating a microservice architecture](07-microservice-architecture/README.md)
-- Coming soon: Lab 8: Working with ArgoCD
+- Coming soon: Lab 8: Working with Argo CD
+- Coming soon: Lab 9: Using Argo CD Image Updater
 
 After completing the labs, you'll be able to:
 
