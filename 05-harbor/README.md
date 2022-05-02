@@ -7,7 +7,7 @@ In this lab, you are going to:
 - Create a Kubernetes Deployment and Service
 - Publicly expose the Hello World app using Otomi
 
-When you create a Team in Otomi, Otomi will automatically create a project for the team in Harbor. In this lab we'll assume you have created a team called `demo`.
+When you create a Team in Otomi, Otomi will automatically create a project for the team in Harbor. In this lab, we'll assume you have created a team called `demo`.
 
 > **_NOTE:_** You can not do this lab when running Otomi on Minikube!
 
@@ -41,37 +41,33 @@ When you create a Team in Otomi, Otomi will automatically create a project for t
 
 - Copy the generated token
 
+3. Download the demo application used in this tutorial
 
-1. Download the demo application used in this tutorial
+    ```bash
+    # Clone the repo used for this tutorial
+    git clone https://github.com/redkubes/nodejs-helloworld.git
+    ```
 
-- Clone the repo used for this tutorial:
-
-```bash
-git clone https://github.com/redkubes/nodejs-helloworld.git
-```
-
-4. Login to Harbor
+4. Log in to Harbor
 
 - Login with username `otomi-team-demo-push` & password: `token`
 
-```bash
-docker login -u 'otomi-team-demo-push' -p '$token' harbor.<your-domain>
-```
+    ```bash
+    docker login -u 'otomi-team-demo-push' -p '$token' harbor.<your-domain>
+    ```
 
 5. Build, tag and push the image
 
-- Build and tag the image:
+    ```bash
+    # Build and tag the image
+    docker build -t harbor.<your-domain>/team-demo/hello-world:latest .
+    ```
 
-```bash
-docker build -t harbor.<your-domain>/team-demo/hello-world:latest .
-```
+    ```bash
+    # Push the image to Harbor
+    docker push harbor.<your-domain>/team-demo/hello-world:latest
+    ```
 
-- Push the image to Harbor:
-
-```bash
-docker push harbor.<your-domain>/team-demo/hello-world:latest
-```
-
-Now go to the team-demo project and verify that the hello-world repository has been created.
+Now go to the `team-demo` project and verify that the `hello-world` repository has been created.
 
 Go to the [next lab](../06-secrets/README.md)

@@ -1,6 +1,6 @@
-# Lab 6: Create and use secrets
+# Lab 6: Create and use secrets using Hashicorp Vault
 
-In his lab, you are going to create a secret in Hashicorp Vault.
+In this lab, you are going to create a secret in Hashicorp Vault.
 
 ## Instructions
 
@@ -42,17 +42,17 @@ Now we need to synchronize the secret in Vault to Kubernetes so the secret can b
 
 - Click on `Deploy Changes` in the left pane of the console
 
-Note: under the hood an open source tool called `external-secrets` is at work that will transform a Vault secret into a regular Kubernetes secret.
+Note: Under the hood, an open-source tool called `external-secrets` is at work that will transform a Vault secret into a regular Kubernetes secret.
 
-The secret in Vault is now mapped and can be used by the team in any workload. Otomi Console makes this easy by offering a secrets selector during creation of services.
+The secret in Vault is now mapped and can be used by the team in any workload. Otomi Console makes this easy by offering a secret selector during the creation of services.
 
 1. Create a new K8s deployment that uses the secret
 
 - Install the hello resources:
 
-```bash
-kubectl apply -f https://raw.githubusercontent.com/redkubes/workshops/main/06-secrets/hello-svc.yaml -n team-$TEAM-NAME
-```
+    ```bash
+    kubectl apply -f https://raw.githubusercontent.com/redkubes/workshops/main/06-secrets/hello-svc.yaml -n team-$TEAM-NAME
+    ```
 
 - Go to `Services`
 
@@ -60,7 +60,7 @@ kubectl apply -f https://raw.githubusercontent.com/redkubes/workshops/main/06-se
 
 - Fill in `hello-svc` as the name of the service
 
-- Select `Excisting Kubernetes service`
+- Select `Existing Kubernetes service`
 
 - Under `Exposure` select `Public`
 
