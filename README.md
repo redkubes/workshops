@@ -6,11 +6,11 @@
 
 Otomi:
 
-- Brings a full PaaS (like Heroku) to your own Kubernetes cluster. The only thing you'll need to do yourself is build your app image and configure Otomi to use it, which will then do the rest.
+- Brings a full PaaS (like Heroku) to your Kubernetes cluster. The only thing you'll need to do is to build your application image and configure Otomi to use it
 
-- Allows you to use a PaaS on top of K8s without the constraints and abstractions of traditional PaaS offerings like OpenShift, Cloud Foundry and Heroku.
+- Allows you to use a PaaS on top of K8s without the constraints and abstractions of traditional PaaS offerings like OpenShift, Cloud Foundry and Heroku
 
-- Removes the burden of building and maintaining your internal (developer) platform, lowers the burden on operations, and empowers developers to focus on application deployment and management only.
+- Removes the burden of building and maintaining your internal (developer) platform, lowers the burden on operations, and empowers developers to focus on application deployment and management only
 
 ## About the workshop
 
@@ -27,11 +27,11 @@ The workshop aims to demonstrate different use cases and features of [Otomi](htt
 
 ## 🎊 Learning objectives
 
-The main objective is to get a good understanding/overview of Otomi and be able to identify the benefits and possible use cases for it.
+The main objective is to get a good understanding/overview of Otomi and be able to identify its benefits and possible use cases for it.
 
 ## 🛠 Lab prerequisites
 
-- A K8s cluster with al least 16 vCPU and 32GiB memory
+- A K8s cluster with at least 16 vCPU and 32GiB memory
 - Otomi installed
 - CLI tools used in the labs
   - [helm](https://helm.sh/docs/intro/install/)
@@ -55,15 +55,19 @@ The workshop is organized into 5 labs:
 After completing the labs, you'll be able to:
 
 - Use the Teams feature in Otomi for multi-tenancy and network isolation
-- Use te Otomi web UI to expose K8s services and configure network policies between workloads
+- Use the Otomi web UI to expose K8s services and configure network policies between workloads
 - Explain the difference between Otomi core apps and how to activate optional apps
 - Create Knative workloads using the Otomi web UI
-- Expose workloads in a microservice architecture, allowing multiple workloads in different team namespaces to work together.
+- Expose workloads in a microservice architecture, allowing multiple workloads in different team namespaces to work together
 
 ## 📖 Documentation & support
 
-Official Otomi documentation is available [here](https://otomi.io). We'd also like to invite you to [join our Slack community](https://otomi.slack.com/join/shared_invite/zt-12h11e8aa-6po4NWhhpMXxT~nffDsYqA#/shared-invite/email) for additional support, feature discussions, or just for a quick chat.
+The Official Otomi documentation is available [here](https://otomi.io).
 
-The Otomi open source project can be found [here](https://github.com/redkubes/otomi-core) on GitHub. Don't forget to ⭐️ ⭐️ ⭐️.
+We'd also like to invite you to [join our Slack community](https://otomi.slack.com/join/shared_invite/zt-12h11e8aa-6po4NWhhpMXxT~nffDsYqA#/shared-invite/email) for additional support, feature discussions, or just for a quick chat.
+
+The Otomi open source project can be found [here](https://github.com/redkubes/otomi-core) on GitHub.
+
+Don't forget to ⭐️ ⭐️ ⭐️.
 
 Thank you!
