@@ -33,7 +33,7 @@ helm registry login -u 'otomi-team-demo-push' -p $token harbor.<your-domain>
 Upload the provided `hello-0.1.0.tgz` chart:
 
 ```
-helm push ./hello-0.1.0.tgz oci://harbor.dev.doks.otomi.cloud/library/hello
+helm push ./hello-0.1.0.tgz oci://harbor.<your-domain>/library/hello
 ```
 
 ### 2. Connect a team's helm repo in Argo CD
@@ -46,23 +46,23 @@ helm push ./hello-0.1.0.tgz oci://harbor.dev.doks.otomi.cloud/library/hello
    - `Repository URL: harbor.<your-domain>/chartrepo/library`
 4. Click `Connect`
 
-### 3. Create an Argo CD app
+### 3. Create an Argo CD application
 
 1. Select `Applications`, and click on `Create`
 2. Input the following:
-   1. `Application Name: Hello`
-   2. `Project: <team-name>`
-   3. `Sync Policy: Automatic`
-   4. `Repository URL: harbor.<your-domain>/chartrepo/library`
-   5. `Chart: hello`
-   6. `Version: 0.1.0`
-   7. `Cluster URL: https://kubernetes.default.svc`
-   8. `Namespace: <team-name>`
+   - `Application Name: Hello`
+   - `Project: <team-name>`
+   - `Sync Policy: Automatic`
+   - `Repository URL: harbor.<your-domain>/chartrepo/library`
+   - `Chart: hello`
+   - `Version: 0.1.0`
+   - `Cluster URL: https://kubernetes.default.svc`
+   - `Namespace: <team-name>`
 3. Click on `Create`
 
 You will see that that the hello application is now automatically deployed. To see the app, create a new Service in Otomi (in the team where the app is deployed) and set the exposure ingress to `public`.
 
-### 4. Add image auto-update configuration
+### 4. Configure Argo CD Image Updater
 
 1. In Argo CD, go to applications and click on the `hello` application
 2. Click on `App Details` and then `Edit`
