@@ -18,7 +18,7 @@ Let's create a Team!
 
 2. Click on `Create team`.
 
-3. Provide a name for the team.
+3. Provide a name for the team - for the purpose of these workshops we recommend using `demo`
 
 4. Under NetworkPolicy, disable `Network policies` and `Egress control` (we will activate this later on).
 

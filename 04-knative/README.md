@@ -13,12 +13,12 @@ You might notice that in the `Service type` section there are now 2 extra option
 - Existing knative service: to map a pre-deployed knative service to Otomi
 - New knative service: to create a new knative service using Otomi
 
-3. Provide a name for your service
+3. Provide a name for your service (`helloworld` recommended)
 
 4. Select `New knative service` and use the following values:
 
 - Run As User: `1001`
-- Repository: `otomi/nodejs-helloworld:v1.2.12`
+- Repository: `otomi/nodejs-helloworld`
 - Tag: `v1.2.12`
 - Limits: `CPU=200m`, `Memory=128Mi`
 - Requests: `CPU=100m`, `Memory=64Mi`

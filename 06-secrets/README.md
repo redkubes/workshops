@@ -4,10 +4,14 @@ In this lab, you are going to create a secret in Hashicorp Vault.
 
 ## Instructions
 
-### 1. Create a secret in Vault
+### 1. Activate Vault
 
-- In the left panel under the Team demo, click `Otomi Apps` then click on `Vault`
-- Sign in with Method `OIDC`, skip role and click on `Sign in with OIDC Provider`
+Go to `Apps` under the `Platform` section in the side menu and Drag and Drop `Vault` from the `Disabled apps` to the `Enabled apps` and `Deploy changes`.
+
+### 2. Create a secret in Vault
+
+- Open `Vault`
+- Sign in with Method `OIDC`, click on `Sign in with OIDC Provider` and leave `role` blank
 
 You are now automatically redirected to the team space `teams/team-demo/`created in Vault.
 
@@ -21,7 +25,7 @@ The secret is now created in vault. In the next tutorial, you are going to "inje
 
 Now we need to synchronize the secret in Vault to Kubernetes so the secret can be used in workloads.
 
-### 2. Create a secret in Otomi:
+### 3. Create a secret in Otomi:
 
 - In the left panel under the Team demo, click `Secrets`
 - Click on `Create secret`
@@ -35,7 +39,7 @@ Note: Under the hood, an open-source tool called `external-secrets` is at work t
 
 The secret in Vault is now mapped and can be used by the team in any workload. Otomi Console makes this easy by offering a secret selector during the creation of services.
 
-### 3. Create a new K8s deployment that uses the secret
+### 4. Create a new K8s deployment that uses the secret
 
 - Install the hello resources:
 
