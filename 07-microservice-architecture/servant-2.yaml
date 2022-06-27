@@ -15,7 +15,7 @@ spec:
       containers:
       - env:
         - name: INFORMANT
-          value: informant
+          value: http://sneaky.team-demo.svc.cluster.local
         - name: TARGET
           value: sir
         image: otomi/nodejs-helloworld:v1.2.12
