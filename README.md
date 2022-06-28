@@ -40,7 +40,7 @@ The main objective is to get a good understanding/overview of Otomi and be able 
 
 ## 🚀 Labs
 
-The workshop is organized into 5 labs:
+The workshop is organized into 8 labs:
 
 - Lab 1: [Creating Teams](01-create-team/README.md)
 - Lab 2: [Configuring network policies](02-netpols/README.md)
