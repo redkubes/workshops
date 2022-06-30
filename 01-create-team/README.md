@@ -16,7 +16,7 @@ Let's create a Team!
 
 1. In the side menu, click on `Teams` under the `Platform` section.
 
-2. Click on `Create team`.
+2. Click on `Create Team`.
 
 3. Provide a name for the team - for the purpose of these workshops we recommend using `demo`
 
@@ -34,7 +34,7 @@ Let's create a Team!
 
 Note:
 
-- Because we did not enable Alert manager, the Alerts section is disabled
-- Because we did not enable Grafana, the Azure Monitor section is disabled
+- Since we did not enable Alert manager, the Alerts section is disabled
+- Since we did not enable Grafana, the Azure Monitor section is disabled
 
 Go to the [next lab](../02-netpols/README.md)
