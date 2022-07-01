@@ -24,7 +24,7 @@ Let's create a Team!
 
 5. Leave all other settings default.
 
-6. Click on `Submit`.
+6. Click on `submit`.
 
 7. Click on `Deploy Changes` (this will become active after in the side menu after you submit a change).
 

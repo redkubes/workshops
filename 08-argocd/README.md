@@ -60,12 +60,12 @@ helm push ./hello-0.1.0.tgz oci://harbor.<your-domain>/library/hello
    - `Namespace: <team-name>`
 3. Click on `Create`
 
-You will see that that the hello application is now automatically deployed. To see the app, create a new Service in Otomi (in the team where the app is deployed) and set the exposure ingress to `public`.
+You will see that that the hello application is now automatically deployed. To see the app, create a new Service in Otomi (in the team where the app is deployed) and set the exposure to `Ingress`.
 
 ### 4. Configure Argo CD Image Updater
 
 1. In Argo CD, go to applications and click on the `hello` application
-2. Click on `App Details` and then `Edit`
+2. Click on `App Details` and then `edit`
 3. Under `Annotations`, add the following annotation:
 
 ```yaml

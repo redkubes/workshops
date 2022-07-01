@@ -31,15 +31,15 @@ redis-leader     ClusterIP   10.0.82.226    <none>        6379/TCP   6m44s
 
 5. Fill in the name `frontend`.
 
-6. Under `Exposure`, select `Public`. Leave all other settings under exposure default.
+6. Under `Exposure`, select `Ingress`. Leave all other settings under exposure default.
 
 7. Leave all other settings default and click `submit`.
 
 8. Click `Deploy Changes`.
 
-**INFO**: After the changes have been deployed (this will take a couple of minutes), you will see that the service we just created has a host name. Click on the host name to get access to the `guestbook` frontend. Submit a few messages on the application. 
+**INFO**: After the changes have been deployed (this will take a couple of minutes), you will see that the service we just created has a host name. Click on the host name to get access to the `guestbook` frontend. submit a few messages on the application. 
 
-9. Register the `redis-follower` and `redis-leader` services via the otomi-console. Make sure to provide the correct port (6379) and leave all other settings default (so no exposure) and `submit`. You don't need to `Deploy Changes` after every submit.
+9. Register the `redis-follower` and `redis-leader` services via the otomi-console. Make sure to provide the correct port (**6379**) and leave all other settings default (so no exposure) and `submit`. You don't need to `Deploy Changes` after every submit.
 
 **INFO**: When you create a service in Otomi with ingress `Cluster`, the K8s service will be added to the service-mesh in Otomi. When you create services in Otomi, the Istio Gateway is automatically configured and Istio virtual services are also automatically created.
 
@@ -55,7 +55,7 @@ redis-leader     ClusterIP   10.0.82.226    <none>        6379/TCP   6m44s
 
 12. In the otomi-console, click on the `redis-leader` service.
 
-13. Under `Network policies`, select `Allow selected` and click `add item`. Add the following 2 items and Submit:
+13. Under `Network policies`, select `Allow selected` and click `add item`. Add the following 2 items and submit:
 
 | Team name   | Service Name |
 | ----------- | ------------ |

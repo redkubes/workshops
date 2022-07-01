@@ -15,7 +15,7 @@ When you create a Team in Otomi, Otomi will automatically create a project for t
 
 ### 1. Activate Harbor
 
-Go to `Apps` section under the `Platform` section in the side menu and Drag and Drop `Harbor` from the `Disabled apps` to the `Enabled apps` and `Deploy changes`
+Go to `Apps` section under the `Platform` section in the side menu and Drag and Drop `Harbor` from the `Disabled apps` to the `Enabled apps` and `Deploy Changes`
 
 ### 2. Create a robot account in Harbor
 
@@ -46,7 +46,7 @@ docker login -u 'otomi-team-demo-push' -p <token> harbor.<your-domain>
 Clone the repo used for this tutorial:
 
 ```bash
-git clone https://github.com/redkubes/nodejs-helloworld.git
+git clone https://github.com/redkubes/nodejs-helloworld.git && cd nodejs-helloworld/
 ```
 
 Build and tag the image:

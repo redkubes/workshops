@@ -6,7 +6,7 @@ In this lab, you are going to create a secret in Hashicorp Vault.
 
 ### 1. Activate Vault
 
-Go to `Apps` under the `Platform` section in the side menu and Drag and Drop `Vault` from the `Disabled apps` to the `Enabled apps` and `Deploy changes`.
+Go to `Apps` under the `Platform` section in the side menu and Drag and Drop `Vault` from the `Disabled apps` to the `Enabled apps` and `Deploy Changes`.
 
 ### 2. Create a secret in Vault
 
@@ -32,7 +32,7 @@ Now we need to synchronize the secret in Vault to Kubernetes so the secret can b
 - Provide a name for the secret. The name should match the name of the secret in Vault. Use the name `hello`
 - Select `Generic` (default)
 - Under `Entries` fill in `TARGET` (the key of the secret in Vault)
-- Click `Submit`
+- Click `submit`
 - Click on `Deploy Changes` in the left pane of the console
 
 Note: Under the hood, an open-source tool called `external-secrets` is at work that will transform a Vault secret into a regular Kubernetes secret.
@@ -51,7 +51,7 @@ The secret in Vault is now mapped and can be used by the team in any workload. O
 - Click `New Service`
 - Fill in `hello-svc` as the name of the service
 - Select `Existing Kubernetes service`
-- Under `Exposure` select `Public`
-- Apply & Deploy changes
+- Under `Exposure` select `Ingress`
+- Apply & Deploy Changes
 
 Go to the [next lab](../07-microservice-architecture/README.md)
