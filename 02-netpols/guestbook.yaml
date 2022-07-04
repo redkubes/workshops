@@ -19,6 +19,7 @@ metadata:
   name: frontend
   labels:
     app: frontend
+    otomi.io/app: frontend
     tier: frontend
 spec:
   type: ClusterIP       
@@ -28,6 +29,7 @@ spec:
     targetPort: 80
   selector:
     app: frontend
+    otomi.io/app: frontend
     tier: frontend
 ---
 apiVersion: apps/v1
@@ -44,6 +46,7 @@ spec:
     metadata:
       labels:
         app: frontend
+        otomi.io/app: frontend
         tier: frontend
     spec:
       containers:
@@ -66,6 +69,7 @@ metadata:
   name: redis-follower
   labels:
     app: redis-follower
+    otomi.io/app: redis-follower
     role: follower
     tier: backend
 spec:
@@ -74,6 +78,7 @@ spec:
   - port: 6379
   selector:
     app: redis-follower
+    otomi.io/app: redis-follower
     role: follower
     tier: backend
 ---
@@ -83,6 +88,7 @@ metadata:
   name: redis-follower
   labels:
     app: redis-follower
+    otomi.io/app: redis-follower
     role: follower
     tier: backend
 spec:
@@ -94,6 +100,7 @@ spec:
     metadata:
       labels:
         app: redis-follower
+        otomi.io/app: redis-follower
         role: follower
         tier: backend
     spec:
@@ -114,6 +121,7 @@ metadata:
   name: redis-leader
   labels:
     app: redis-leader
+    otomi.io/app: redis-leader
     role: leader
     tier: backend
 spec:
@@ -122,6 +130,7 @@ spec:
     targetPort: 6379
   selector:
     app: redis-leader
+    otomi.io/app: redis-leader
     role: leader
     tier: backend
 ---
@@ -131,6 +140,7 @@ metadata:
   name: redis-leader
   labels:
     app: redis-leader
+    otomi.io/app: redis-leader
     role: leader
     tier: backend
 spec:
@@ -142,6 +152,7 @@ spec:
     metadata:
       labels:
         app: redis-leader
+        otomi.io/app: redis-leader
         role: leader
         tier: backend
     spec:
