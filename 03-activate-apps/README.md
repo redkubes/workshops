@@ -10,11 +10,11 @@ Next to the Core apps, Otomi offers optional apps like Knative, Harbor, Vault, K
 
 In this lab we are going to activate Loki for logging. 
 
-*Note: The multi-tenancy option in Otomi is by default not enabled. When multi-tenancy is enabled, team metrics and logs will be separated per team. When multi-tenancy is disabled this effectively gives all users the admin role for logs and metrics, including metrics and logs of all platform services. For this lab we will not enable multi-tenancy. To see if multi-tenancy is enabled, go to `Settings` under the `Platform` section in the side menu and then select `Otomi`. In the bottom of the page you will see the flag `Multi-tenancy`.*
+*Note: The multi-tenancy option in Otomi is not enabled by default. When multi-tenancy is enabled, team metrics and logs will be separated per team. When multi-tenancy is disabled this effectively gives all users the admin role for logs and metrics, including metrics and logs of all platform services. For this lab we will not enable multi-tenancy. To see if multi-tenancy is enabled, go to `Settings` under the `Platform` section in the side menu and then select `Otomi`. In the bottom of the page you will see the flag `Multi-tenancy`.*
 
 ## Instructions
 
-1. Go to `Apps` under the `Platform` section in the side menu and Drag and Drop `Loki` from the `Disabled apps` to the `Enabled apps`. Notice that `Grafana` and `Prometheus` will also be enabled. This is because Loki requires Grafana, and Grafana requires Prometheus and therefor are also installed because of these dependencies.
+1. Go to `Apps` under the `Platform` section in the side menu and Drag and Drop `Loki` from the `Disabled apps` to the `Enabled apps`. Notice that `Grafana` and `Prometheus` will also be enabled. This is because Loki requires Grafana, and Grafana requires Prometheus and therefore they also installed because of these dependencies.
 
 2. Click on `Deploy Changes`
 
