@@ -14,7 +14,7 @@ In this lab we are going to activate Loki for logging.
 
 ## Instructions
 
-1. Go to `Apps` under the `Platform` section in the side menu and Drag and Drop `Loki` from the `Disabled apps` to the `Enabled apps`. Notice that `Grafana` and `Prometheus` will also be enabled. This is because Loki requires Grafana, and Grafana requires Prometheus and therefore they also installed because of these dependencies.
+1. Go to `Apps` under the `Platform` section in the side menu and Drag and Drop `Loki` from the `Disabled apps` to the `Enabled apps`. Notice that `Grafana` and `Prometheus` will also be enabled. This is because Loki requires Grafana, and Grafana requires Prometheus and therefore they are also installed because of these dependencies.
 
 2. Click on `Deploy Changes`
 
