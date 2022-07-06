@@ -12,6 +12,8 @@ In this lab we are going to activate Loki for logging.
 
 *Note: The multi-tenancy option in Otomi is not enabled by default. Team metrics and logs will be separated per team when multi-tenancy is enabled. When multi-tenancy is disabled this effectively gives all users the admin role for logs and metrics, including metrics and logs of all platform services. For this lab, we will **not enable multi-tenancy**. To see if multi-tenancy is enabled, go to `Settings` under the `Platform` section in the side menu and then select `Otomi`. At the bottom of the page you will see the flag `Multi-tenancy`.*
 
+> **_NOTE:_** You can also check the video [here.](https://youtu.be/FO3WVha3YfU)
+
 ## Instructions
 
 1. Go to `Apps` under the `Platform` section in the side menu and Drag and Drop `Loki` from the `Disabled apps` to the `Enabled apps`. Notice that `Grafana` and `Prometheus` will also be enabled. This is because Loki requires Grafana, and Grafana requires Prometheus and therefore they are also installed because of these dependencies.
@@ -28,5 +30,4 @@ In this lab we are going to activate Loki for logging.
 
 7. Go back to the console and in the Loki app, click on `Shortcuts`. Click `edit` and the `Add item`. Fill in a title (like "$TEAM-NAME logs"), a description (like "The logs of $TEAM-NAME") and paste the copied path. Now click submit. The shortcut you now created can be used to go directly to Loki and see the result of your query.
 
-Go to the [next lab](../04-knative/README.md)
-
+Go to the [next lab.](../04-netpols/README.md)

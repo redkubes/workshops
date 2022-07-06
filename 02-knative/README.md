@@ -1,6 +1,8 @@
-# Lab 4: Using Knative
+# Lab 2: Using Knative
 
 In this lab, we are going to activate Knative and create a new Knative service using Otomi Console.
+
+> **_NOTE:_** You can also check the video [here.](https://youtu.be/aIeuEsqzcsw)
 
 ## Instructions
 
@@ -21,11 +23,11 @@ You might notice that in the `Service type` section there are now 2 extra option
 - Repository: `otomi/nodejs-helloworld`
 - Tag: `v1.2.12`
 - Limits: `CPU=200m`, `Memory=128Mi`
-- Requests: `CPU=100m`, `Memory=64Mi`
+- Requests: `CPU=100m`, `Memory=64Mi`PP
 - Exposure: `Ingress`
 
 5. Now click `submit` and then `Deploy Changes`
 
 6. The new service and the hostname are now shown in the list of services. Wait until the Drone pipeline has finished and click on the hostname. What do you see?
 
-Go to the [next lab](../05-harbor/README.md)
+Go to the [next lab.](../03-activate-apps/README.md)
