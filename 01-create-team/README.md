@@ -12,6 +12,8 @@ In this lab, we are going to create a Team in Otomi. Teams in Otomi serve the fo
 
 Let's create a Team!
 
+> **_NOTE:_** You can also check the video [here.](https://youtu.be/aNoC6OeqHKw)
+
 ## Instructions
 
 1. In the side menu, click on `Teams` under the `Platform` section.
@@ -37,4 +39,4 @@ Note:
 - Since we did not enable Alert manager, the Alerts section is disabled
 - Since we did not enable Grafana, the Azure Monitor section is disabled
 
-Go to the [next lab](../02-netpols/README.md)
+Go to the [next lab.](../02-knative/README.md)

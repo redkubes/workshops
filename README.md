@@ -40,12 +40,12 @@ The main objective is to get a good understanding/overview of Otomi and be able 
 
 ## 🚀 Labs
 
-The workshop is organized into 8 labs:
+The workshop is organized into several labs:
 
 - Lab 1: [Creating Teams](01-create-team/README.md)
-- Lab 2: [Configuring network policies](02-netpols/README.md)
+- Lab 2: [Using Knative](02-knative/README.md)
 - Lab 3: [Activate apps](03-activate-apps/README.md)
-- Lab 4: [Using Knative](04-knative/README.md)
+- Lab 4: [Configuring network policies](04-netpols/README.md)
 - Lab 5: [Using Harbor](05-harbor/README.md)
 - Lab 6: [Create and use secrets using Hashicorp Vault](06-secrets/README.md)
 - Lab 7: [Creating a microservice architecture](07-microservice-architecture/README.md)
