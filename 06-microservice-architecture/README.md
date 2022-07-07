@@ -1,10 +1,10 @@
-# Lab 7: Creating a microservice architecture
+# Lab 6: Creating a microservice architecture
 
 In this lab we are going to deploy multiple services from different teams and expose them using a shared domain, but each on their own path. We will use on-the-fly Knative services for speed and simplicity.
 
 ## Prerequisites
 
-1. You are familiar with Knative. Did you try following the [Knative workshop](../04-knative/README.md)?
+1. You are familiar with Knative. Did you try following the [Knative workshop](../02-knative/README.md)?
 2. Knative is enabled in Otomi. (Check the `Apps` section under `Platform`.)
 3. Two teams are created. We will refer to them as `team-a` and `team-b`. (It is not necessary to `Deploy` first.)
 
@@ -62,4 +62,4 @@ And for `team-b`:
 
 Bonus: Add network policies to make sure no unforeseen traffic is routed :)
 
-Go to the [next lab](../08-argocd/README.md)
+Go to the [next lab.](../07-argocd/README.md)

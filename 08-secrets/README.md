@@ -44,7 +44,7 @@ The secret in Vault is now mapped and can be used by the team in any workload. O
 - Install the hello resources:
 
     ```bash
-    kubectl apply -f https://raw.githubusercontent.com/redkubes/workshops/main/06-secrets/hello-svc.yaml -n team-$TEAM-NAME
+    kubectl apply -f https://raw.githubusercontent.com/redkubes/workshops/main/08-secrets/hello-svc.yaml -n team-$TEAM-NAME
     ```
 
 - Go to `Services`
@@ -54,4 +54,3 @@ The secret in Vault is now mapped and can be used by the team in any workload. O
 - Under `Exposure` select `Ingress`
 - Apply & Deploy Changes
 
-Go to the [next lab](../07-microservice-architecture/README.md)

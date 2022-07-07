@@ -47,9 +47,9 @@ The workshop is organized into several labs:
 - Lab 3: [Activate apps](03-activate-apps/README.md)
 - Lab 4: [Configuring network policies](04-netpols/README.md)
 - Lab 5: [Using Harbor](05-harbor/README.md)
-- Lab 6: [Create and use secrets using Hashicorp Vault](06-secrets/README.md)
-- Lab 7: [Creating a microservice architecture](07-microservice-architecture/README.md)
-- Lab 8: [Working with Argo CD](08-argocd/README.md)
+- Lab 6: [Creating a microservice architecture](06-microservice-architecture/README.md)
+- Lab 7: [Working with Argo CD](07-argocd/README.md)
+- Lab 8: [Create and use secrets using Hashicorp Vault](08-secrets/README.md)
 
 After completing the labs, you'll be able to:
 
