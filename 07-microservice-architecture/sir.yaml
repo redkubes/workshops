@@ -4,7 +4,7 @@ metadata:
   labels:
     app: team-ns
   name: sir
-  namespace: team-demo
+  namespace: team-alpha
 spec:
   template:
     metadata:

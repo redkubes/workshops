@@ -4,7 +4,7 @@ metadata:
   labels:
     app: team-ns
   name: servant-2
-  namespace: team-otomi
+  namespace: team-beta
 spec:
   template:
     metadata:
