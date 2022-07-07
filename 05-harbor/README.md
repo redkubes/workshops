@@ -44,7 +44,7 @@ docker login -u 'otomi-team-demo-push' -p <token> harbor.<your-domain>
 > **_NOTE:_** If Docker refuses to connect with an error
 `x509: certificate signed by unknown authority`, go to the Otomi Console,
 and click `Download CA` (if you have not done so already); then copy the
-obtained file to `~/.docker/ca.crt`.
+obtained file to `~/.docker/ca.crt` or restart docker desktop.
 
 ### 4. Download, build and push the demo application
 
