@@ -21,9 +21,9 @@ In this lab we are going to deploy multiple services from different teams and ex
 - Limits: `CPU=100m`, `Memory=128Mi`
 - Requests: `CPU=50m`, `Memory=64Mi`
 - env: `TARGET=world, I just woke up!`, `SERVANTS=servant-1,servant-2`
+- Check `Scale to zero`
 - Exposure: `Ingress`
 - Uncheck `Use team domain`
-- Check `Scale to zero`
 - host: `hello-multi` (DNS zone can be left as-is)
 
 Click `Deploy` to start the service and domain registration, as that might take time. Plus we want the service to go to sleep as we intend to wake it up later (it serves a purpose, hope you spot it later on ;).
