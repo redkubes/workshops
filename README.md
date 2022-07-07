@@ -63,7 +63,7 @@ After completing the labs, you'll be able to:
 
 The Official Otomi documentation is available [here](https://otomi.io).
 
-We'd also like to invite you to [join our Slack community](https://otomi.slack.com/join/shared_invite/zt-12h11e8aa-6po4NWhhpMXxT~nffDsYqA#/shared-invite/email) for additional support, feature discussions, or just for a quick chat.
+We'd also like to invite you to [join our Slack community](https://join.slack.com/t/otomi/shared_invite/zt-1axa4vima-E~LHN36nbLR~ay5r5pGq9A) for additional support, feature discussions, or just for a quick chat.
 
 The Otomi open source project can be found [here](https://github.com/redkubes/otomi-core) on GitHub.
 

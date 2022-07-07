@@ -6,17 +6,17 @@ When Gitea is enabled, Otomi creates a gitops repo named `team-$Name-argocd` for
 
 The steps are as follows:
 
-1. Upload a chart to Harbor.
+1. Upload a chart to Harbor
 2. Connect a team's helm repo in Argo CD
-3. Create an Argo CD app of type `Helm` and see it sync.
-4. Add image auto-update configuration to make the workload's image update when new patch versions are published.
+3. Create an Argo CD app of type `Helm` and see it sync
+4. Add image auto-update configuration to make the workload's image update when new patch versions are published
 
 ## Prerequisites
 
 1. You are familiar with Argo CD concepts
 2. Harbor is enabled in Otomi. (Check the `Apps` section under `Platform`.)
 3. One team is created. We will refer to it as `team-a`.
-4. You have followed [Lab 5: Working with Harbor](./../05-harbor/README.md).
+4. You have followed [Lab 5: Working with Harbor](./../05-harbor/README.md)
 
 ## Instructions
 
@@ -24,7 +24,7 @@ The steps are as follows:
 
 You can do this in the Harbor UI, or directly with the helm CLI:
 
-Login to the team's OCI registry first, by using the credentials created in [Lab 5: Working with Harbor](./../05-harbor/README.md):
+Login to the team's OCI registry first, by using the credentials created in [Lab 5: Working with Harbor](./../05-harbor/README.md)
 
 ```
 helm registry login -u 'otomi-team-demo-push' -p $token harbor.<your-domain>
