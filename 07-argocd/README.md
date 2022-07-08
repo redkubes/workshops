@@ -15,8 +15,8 @@ The steps are as follows:
 
 1. You are familiar with Argo CD concepts
 2. Harbor is enabled in Otomi. (Check the `Apps` section under `Platform`.)
-3. One team is created. We will refer to it as `team-a`.
-4. You have followed [Lab 5: Working with Harbor](./../05-harbor/README.md)
+3. One team is created. We will refer to it as `team-demo`.
+4. You have followed [Lab 5: Working with Harbor](./../05-harbor/README.md).
 
 ## Instructions
 
@@ -39,7 +39,7 @@ helm push ./hello-0.1.0.tgz oci://harbor.<your-domain>/library/hello
 
 ### 2. Connect a team's helm repo in Argo CD
 
-1. Open `Settings`
+1. Open `Settings` > `Repositories`
 2. Choose `Connect Repo using https`
 3. Input the following:
    - `Type: Helm`
