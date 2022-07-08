@@ -1,0 +1,28 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  labels:
+    app: team-ns
+  name: servant-2
+  namespace: team-beta
+spec:
+  template:
+    metadata:
+      annotations:
+        autoscaling.knative.dev/minScale: "1"
+    spec:
+      containerConcurrency: 0
+      containers:
+      - env:
+        - name: INFORMANT
+          value: http://sneaky.team-demo.svc.cluster.local
+        - name: TARGET
+          value: sir
+        image: otomi/nodejs-helloworld:v1.2.12
+        resources:
+          limits:
+            cpu: 100m
+            memory: 128Mi
+          requests:
+            cpu: 50m
+            memory: 64Mi
