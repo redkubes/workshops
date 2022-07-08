@@ -5,7 +5,7 @@ metadata:
     app: team-ns
     serving.knative.dev/visibility: cluster-local
   name: informant
-  namespace: team-demo
+  namespace: team-alpha
 spec:
   template:
     metadata:
