@@ -1,0 +1,27 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  labels:
+    app: team-ns
+    serving.knative.dev/visibility: cluster-local
+  name: informant
+  namespace: team-alpha
+spec:
+  template:
+    metadata:
+      annotations:
+        autoscaling.knative.dev/minScale: "1"
+      creationTimestamp: null
+    spec:
+      containers:
+      - env:
+        - name: TARGET
+          value: servant-2
+        image: otomi/nodejs-helloworld:v1.2.12
+        resources:
+          limits:
+            cpu: 100m
+            memory: 128Mi
+          requests:
+            cpu: 50m
+            memory: 64Mi

@@ -47,9 +47,9 @@ The workshop is organized into several labs:
 - Lab 3: [Activate apps](03-activate-apps/README.md)
 - Lab 4: [Configuring network policies](04-netpols/README.md)
 - Lab 5: [Using Harbor](05-harbor/README.md)
-- Lab 6: [Create and use secrets using Hashicorp Vault](06-secrets/README.md)
-- Lab 7: [Creating a microservice architecture](07-microservice-architecture/README.md)
-- Lab 8: [Working with Argo CD](08-argocd/README.md)
+- Lab 6: [Creating a microservice architecture](06-microservice-architecture/README.md)
+- Lab 7: [Working with Argo CD](07-argocd/README.md)
+- Lab 8: [Create and use secrets using Hashicorp Vault](08-secrets/README.md)
 
 After completing the labs, you'll be able to:
 
@@ -63,7 +63,7 @@ After completing the labs, you'll be able to:
 
 The Official Otomi documentation is available [here](https://otomi.io).
 
-We'd also like to invite you to [join our Slack community](https://otomi.slack.com/join/shared_invite/zt-12h11e8aa-6po4NWhhpMXxT~nffDsYqA#/shared-invite/email) for additional support, feature discussions, or just for a quick chat.
+We'd also like to invite you to [join our Slack community](https://join.slack.com/t/otomi/shared_invite/zt-1axa4vima-E~LHN36nbLR~ay5r5pGq9A) for additional support, feature discussions, or just for a quick chat.
 
 The Otomi open source project can be found [here](https://github.com/redkubes/otomi-core) on GitHub.
 
