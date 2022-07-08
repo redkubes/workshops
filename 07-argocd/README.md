@@ -15,8 +15,8 @@ The steps are as follows:
 
 1. You are familiar with Argo CD concepts
 2. Harbor is enabled in Otomi. (Check the `Apps` section under `Platform`.)
-3. One team is created. We will refer to it as `team-a`.
-4. You have followed [Lab 5: Working with Harbor](./../05-harbor/README.md)
+3. One team is created. We will refer to it as `team-demo`.
+4. You have followed [Lab 5: Working with Harbor](./../05-harbor/README.md).
 
 ## Instructions
 
@@ -36,21 +36,23 @@ Upload the provided `hello-0.1.0.tgz` chart:
 helm push ./hello-0.1.0.tgz oci://harbor.<your-domain>/library/hello
 ```
 
+
 ### 2. Connect a team's helm repo in Argo CD
 
-1. Open `Settings`
+1. Open `Settings` > `Repositories`
 2. Choose `Connect Repo using https`
 3. Input the following:
    - `Type: Helm`
-   - `Project: Harbor`
-   - `Repository URL: harbor.<your-domain>/chartrepo/library`
+   - `Name: Harbor`
+   - `Project: <team-name>`
+   - `Repository URL: https://harbor.<your-domain>/chartrepo/library`
 4. Click `Connect`
 
 ### 3. Create an Argo CD application
 
 1. Select `Applications`, and click on `Create`
 2. Input the following:
-   - `Application Name: Hello`
+   - `Application Name: hello`
    - `Project: <team-name>`
    - `Sync Policy: Automatic`
    - `Repository URL: harbor.<your-domain>/chartrepo/library`
@@ -69,7 +71,7 @@ You will see that that the hello application is now automatically deployed. To s
 3. Under `Annotations`, add the following annotation:
 
 ```yaml
-argocd-image-updater.argoproj.io/image-list:otomi/nodejs-helloworld: "~1.2"
+argocd-image-updater.argoproj.io/image-list: "otomi/nodejs-helloworld:~1.2"
 ```
 
 4. Now click `Save`
