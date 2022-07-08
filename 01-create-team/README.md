@@ -34,7 +34,7 @@ Let's create a Team!
 
 9. In the side menu, the team section will now become visible.
 
-N> **_NOTE:_**
+> **_NOTE:_**
 
 - Since we did not enable Alert manager, the Alerts section is disabled
 - Since we did not enable Grafana, the Azure Monitor section is disabled
