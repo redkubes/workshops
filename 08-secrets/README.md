@@ -14,7 +14,7 @@ In this lab, you are going to create a secret in Hashicorp Vault.
 - Go to `Apps` under the `Platform` section in the side menu
 - Click on `Keycloak` and click the `play` button to access the application
 - Follow the screencast below to create a team-demo user
-  ![create a user](create-a-team-demo-user.gif)
+  ![create a user](https://github.com/redkubes/workshops/blob/main/08-secrets/create-a-team-demo-user.gif)
 
 - Once you have created a `team-demo` user, log out from the otomi console and log back in as the newly created user
 
