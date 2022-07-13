@@ -28,16 +28,18 @@ Most of the developers/companies have an existing Github CI pipeline and don't w
 - Fill in the form as shown below and click "Connect"
 
     <img src="argo-github-connect-form.png" alt="argo" width="200" height="200"/>
+
+    *Repository URL:* `https://hivenetes.github.io/hive/`
 - Upon successful connection, you should see something like this
 
-    <img src="github-conn-success.png" alt="conn" width="300" height="20"/>
+    <img src="github-conn-success.png" alt="conn" width="600" height="40"/>
 
 
 ### 3. Create an App on Argo CD
 
 - Create an App by following the screencast
 
-    <img src="argo-create-app.gif" alt="argo" width="600" height="200"/>
+    <img src="argo-create-app.gif" alt="argo" width="800" height="300"/>
 
 ### 4. Register the `frontend` service in Otomi
 
@@ -59,6 +61,6 @@ We can now use Loki Grafana that is integrated in Otomi to check the application
 
 - Follow the screencast below
 
-    <img src="argo-app-monitoring.gif" alt="argo" width="600" height="280"/>
+    <img src="argo-app-monitoring.gif" alt="argo" width="800" height="300"/>
 
 > **_TAKEAWAY:_** Otomi offers a seamless integration with your existing git workflow using the pre-baked open source tools 
