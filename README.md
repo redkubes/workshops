@@ -50,6 +50,7 @@ The workshop is organized into several labs:
 - Lab 6: [Creating a microservice architecture](06-microservice-architecture/README.md)
 - Lab 7: [Working with Argo CD](07-argocd/README.md)
 - Lab 8: [Create and use secrets using Hashicorp Vault](08-secrets/README.md)
+- Lab 9: [Github CI + Otomi workflow](09-github-ci-workflow/README.md)
 
 After completing the labs, you'll be able to:
 
