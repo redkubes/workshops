@@ -51,6 +51,7 @@ The workshop is organized into several labs:
 - Lab 7: [Working with Argo CD](07-argocd/README.md)
 - Lab 8: [Create and use secrets using Hashicorp Vault](08-secrets/README.md)
 - Lab 9: [Github CI + Otomi workflow](09-github-ci-workflow/README.md)
+- Lab 10: [Runtime Container Security using KubeClarity](10-runtime-container-security/README.md)
 
 After completing the labs, you'll be able to:
 
