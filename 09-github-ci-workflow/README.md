@@ -1,6 +1,6 @@
 # Lab 9: Github CI + Otomi workflow
 
-Most of the developers/companies have an existing Github CI pipeline and don't want to make drastic changes to their exisitng workflows. In this lab, we will demonstrate how one can easily integrate an exisitng github ci workflow with Otomi, that is pre-baked with Argo CD and Loki Grafana. 
+Most of the developers/companies have an existing Github CI pipeline and don't want to make drastic changes to their existing workflows. In this lab, we will demonstrate how one can easily integrate an existing GitHub CI workflow with Otomi, which is pre-baked with Argo CD and Loki Grafana. 
 
  - We will use a sample [repository](https://github.com/hivenetes/hive) that has been configured to release a helm chart for a [three-tier microservice application](https://cloud.google.com/kubernetes-engine/docs/tutorials/guestbook) using [helm/chart-releaser-action](https://github.com/helm/chart-releaser-action)
  - Connect the chart repo from Otomi(using Argo CD)
@@ -52,12 +52,12 @@ Head back to the console to register the `frontend` service of the three-tier mi
 - Click `submit` & Deploy Changes
 - Once the drone pipeline is successful, you will be able to access the `frontend` service from the URL in the Services window
 
-You should be able to see the famoues `guestbook` application.
+You should be able to see the famous `guestbook` application.
 
 ### 5. Monitoring the app using Loki Grafana
 
 Now that we have deployed our `guestbook` application. 
-We can now use Loki Grafana that is integrated in Otomi to check the application logs and monitor the performance of the services deployed. 
+We can now use Loki Grafana which is integrated into Otomi to check the application logs and monitor the performance of the services deployed. 
 
 - Follow the screencast below
 
